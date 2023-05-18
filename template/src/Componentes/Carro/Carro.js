@@ -1,6 +1,8 @@
+import { ContainerCarro  } from "./style";
+
 export function Carro(props) {
     return (
-      <div>
+      <ContainerCarro>
         <h2>Meu carro</h2>
         <ul>
           <li>Cor: {props.cor}</li>
@@ -8,7 +10,7 @@ export function Carro(props) {
           <li>Flex: {props.flex}</li>
           <li>Adicionado: {props.adicionadoPor}</li>
         </ul>
-      </div>
+      </ContainerCarro>
     );
   }
   
